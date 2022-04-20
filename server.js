@@ -52,6 +52,7 @@ app.get("*", async (request, response) => {
   // Or
   // https://<domain>/clashofclans/clans/%23V88CRPU
 
+  console.log(request.path);
   if (
     request &&
     request.path &&
