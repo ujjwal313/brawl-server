@@ -1,7 +1,3 @@
-// Example for Creating a proxy server.
-
-// Run this file in seperate folder and create .env file and install all dependencies.
-
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
